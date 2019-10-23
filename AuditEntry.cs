@@ -1,5 +1,6 @@
-﻿using Penguin.Cms.Attributes;
-using Penguin.Entities;
+﻿using Penguin.Auditing.Abstractions.Attributes;
+using Penguin.Cms.Abstractions.Attributes;
+using Penguin.Cms.Entities;
 using Penguin.Persistence.Abstractions.Attributes.Control;
 using Penguin.Persistence.Abstractions.Attributes.Validation;
 using System;
@@ -9,6 +10,7 @@ namespace Penguin.Cms.Auditing
     /// <summary>
     /// Represents the logged change in the values of an entity
     /// </summary>
+    [DontAuditChanges]
     public class AuditEntry : Entity
     {
         /// <summary>
@@ -42,7 +44,7 @@ namespace Penguin.Cms.Auditing
         /// <summary>
         /// A Guid representing the source of the change
         /// </summary>
-        [CustomRoute(DisplayContexts.List | DisplayContexts.Edit, "Render", "UserRecord")]
+        [CustomRoute(DisplayContexts.List | DisplayContexts.Edit, "Security", "UserRecord")]
         public Guid Source { get; set; }
 
         /// <summary>

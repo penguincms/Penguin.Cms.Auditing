@@ -7,6 +7,7 @@
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Cms.Auditing</PackageProjectUrl>
     <AssemblyName>Penguin.Cms.Auditing</AssemblyName>
     <RootNamespace>Penguin.Cms.Auditing</RootNamespace>
+    <DocumentationFile>Penguin.Cms.Auditing.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Penguin.Auditing.Abstractions" Version="1.0.1-T9QC72V" />

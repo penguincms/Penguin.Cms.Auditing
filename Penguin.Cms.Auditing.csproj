@@ -10,8 +10,8 @@
     <DocumentationFile>Penguin.Cms.Auditing.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Auditing.Abstractions" Version="5.0.1-TA29PDE" />
-    <PackageReference Include="Penguin.Cms.Abstractions" Version="5.0.1-TA29PDE" />
-    <PackageReference Include="Penguin.Cms.Entities" Version="5.0.1-TA29PDE" />
+    <PackageReference Include="Penguin.Auditing.Abstractions" Version="5.0.1-TA29X8Y" />
+    <PackageReference Include="Penguin.Cms.Abstractions" Version="5.0.1-TA29X8Y" />
+    <PackageReference Include="Penguin.Cms.Entities" Version="5.0.1-TA29X8Y" />
   </ItemGroup>
 </Project>

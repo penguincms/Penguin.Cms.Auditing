@@ -4,14 +4,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Version>5.0.5</Version>
     <Description>Entities required for the Penguin CMS auditing system</Description>
-    <PackageProjectUrl>https://github.com/penguincms/Penguin.Cms.Auditing</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/PenguinCMS/Penguin.Cms.Auditing</PackageProjectUrl>
     <AssemblyName>Penguin.Cms.Auditing</AssemblyName>
     <RootNamespace>Penguin.Cms.Auditing</RootNamespace>
     <DocumentationFile>Penguin.Cms.Auditing.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Auditing.Abstractions" Version="5.0.4" />
-    <PackageReference Include="Penguin.Cms.Abstractions" Version="5.0.6-TAEO1KM" />
-    <PackageReference Include="Penguin.Cms.Entities" Version="5.0.6-TAEO1KM" />
+    <PackageReference Include="Penguin.Auditing.Abstractions" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Cms.Abstractions" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Cms.Entities" Version="5.0.6-TAHULSY" />
   </ItemGroup>
 </Project>

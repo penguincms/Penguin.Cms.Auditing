@@ -1,25 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29306.81
+VisualStudioVersion = 16.6.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Auditing", "Penguin.Cms.Auditing.csproj", "{7C9AC7D9-A5EB-49EF-A808-5A08312C64B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penguin.Cms.Auditing", "Penguin.Cms.Auditing.csproj", "{C28EBCD0-FA20-4E2E-9F67-B364167D6EA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7C9AC7D9-A5EB-49EF-A808-5A08312C64B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C9AC7D9-A5EB-49EF-A808-5A08312C64B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C9AC7D9-A5EB-49EF-A808-5A08312C64B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C9AC7D9-A5EB-49EF-A808-5A08312C64B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {33549BFC-5778-44A6-B452-B8721FBFA1DB}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C28EBCD0-FA20-4E2E-9F67-B364167D6EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28EBCD0-FA20-4E2E-9F67-B364167D6EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28EBCD0-FA20-4E2E-9F67-B364167D6EA3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C28EBCD0-FA20-4E2E-9F67-B364167D6EA3}.Debug|x64.Build.0 = Debug|Any CPU
+		{C28EBCD0-FA20-4E2E-9F67-B364167D6EA3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C28EBCD0-FA20-4E2E-9F67-B364167D6EA3}.Debug|x86.Build.0 = Debug|Any CPU
+		{C28EBCD0-FA20-4E2E-9F67-B364167D6EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28EBCD0-FA20-4E2E-9F67-B364167D6EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28EBCD0-FA20-4E2E-9F67-B364167D6EA3}.Release|x64.ActiveCfg = Release|Any CPU
+		{C28EBCD0-FA20-4E2E-9F67-B364167D6EA3}.Release|x64.Build.0 = Release|Any CPU
+		{C28EBCD0-FA20-4E2E-9F67-B364167D6EA3}.Release|x86.ActiveCfg = Release|Any CPU
+		{C28EBCD0-FA20-4E2E-9F67-B364167D6EA3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

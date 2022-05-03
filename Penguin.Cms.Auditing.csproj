@@ -4,7 +4,7 @@
     <TargetFrameworks>netstandard2.0;netstandard2.1;net5.0</TargetFrameworks>
     <Version>5.0.5</Version>
     <Description>Entities required for the Penguin CMS auditing system</Description>
-    <PackageProjectUrl>https://github.com/PenguinCMS/Penguin.Cms.Auditing</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/PenguinCms/Penguin.Cms.Auditing</PackageProjectUrl>
     <AssemblyName>Penguin.Cms.Auditing</AssemblyName>
     <RootNamespace>Penguin.Cms.Auditing</RootNamespace>
     <DocumentationFile>Penguin.Cms.Auditing.xml</DocumentationFile>
